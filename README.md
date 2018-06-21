@@ -1,6 +1,10 @@
 # DNS
 Domain Name System
 
+##
+/var/cache/bind
+/etc/bind
+
 ### 
 - Delegation
 - SSHFP
