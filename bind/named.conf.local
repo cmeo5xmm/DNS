@@ -1,0 +1,67 @@
+//
+// Do any local configuration here
+//
+
+// Consider adding the 1918 zones here, if they are not used in your
+// organization
+//include "/etc/bind/zones.rfc1918";
+
+view "bsd" {
+        match-clients {140.113.235.131; 140.113.235.132; 140.113.235.133; 140.113.235.134;};
+        recursion no;
+        zone "sub.pony.nctucs.net" {
+                type master;
+                file "sub.pony.nctucs.net.bsd";
+        };
+
+        zone "cmeo5xmm.nctucs.net"{
+                type master;
+                file "cmeo5xmm.nctucs.net.signed";
+        };
+};
+
+view "linux" {
+        match-clients {140.113.235.151; 140.113.235.152; 140.113.235.153; 140.113.235.154;};
+        recursion no;
+        zone "sub.pony.nctucs.net" {
+                type master;
+                file "sub.pony.nctucs.net.linux";
+        };
+        zone "cmeo5xmm.nctucs.net"{
+                type master;
+                file "cmeo5xmm.nctucs.net.signed";
+        };
+};
+
+view "other" {
+        match-clients {any;};
+        recursion no;
+        zone "sub.pony.nctucs.net" {
+                type master;
+                file "sub.pony.nctucs.net.signed";
+        };
+
+        zone "cmeo5xmm.nctucs.net"{
+                type master;
+                file "cmeo5xmm.nctucs.net.fwd";
+        };
+
+        zone "sub.cmeo5xmm.nctucs.net"{
+                type slave;
+                masters {140.113.124.2;};
+                masterfile-format text;
+                file "sub.cmeo5xmm.nctucs.net.fwd";
+        };
+
+};
+
+logging{
+        channel query-log{
+                file "/var/log/named.log";
+                severity debug 3;
+                print-time yes;
+        };
+        category default {query-log;};
+        category queries {query-log;};
+};
+

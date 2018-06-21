@@ -1,0 +1,149 @@
+; File written on Tue Apr 24 18:11:03 2018
+; dnssec_signzone version 9.10.3-P4-Ubuntu
+cmeo5xmm.nctucs.net.	3600	IN SOA	cmeo5xmm.nctucs.net. cmeo5xmm.nctucs.net. (
+					2018042431 ; serial
+					86400      ; refresh (1 day)
+					1800       ; retry (30 minutes)
+					684800     ; expire (1 week 22 hours 13 minutes 20 seconds)
+					7200       ; minimum (2 hours)
+					)
+			3600	RRSIG	SOA 5 3 3600 (
+					20180524171103 20180424171103 39111 cmeo5xmm.nctucs.net.
+					bo9Jsw/8T3CO+zyxyZ2tlJT7YnWIdsprYHbb
+					Kh/u8DzOjhl+o022Xt1BICOZ1KQXo65YDccZ
+					eO88ORW/4435ojqymFDHivlcsVJ9sm/Y634N
+					mwyCpfbZ2apy816CNGkhcD0udCKxCScQx0Nn
+					yFtGLOKAxFgTq6xXcMqj31e+dj4= )
+			3600	RRSIG	SOA 5 3 3600 (
+					20180524171103 20180424171103 42988 cmeo5xmm.nctucs.net.
+					lAKnVegIcPJhN/HuGE6ddeXbQF/Wrx086Lol
+					P4hStcB26mriUa+nutfxmaa8oys+gjpquMiT
+					BOFsNmlnAI7Q/PfAMtX9zupnwv7ePCzud5gM
+					jXoDeaCkH53d+Dt29HsZT+wIpkRPJEfQ6J4g
+					Lwq4qYwTD58G/DwiutCm5so/0qe4+DXGKOk8
+					InEZNnEGMa83lmF7I/7hqtW4BrwhtbRpyjOP
+					KPvIFAikpOxNKRiOgN3inrPAu8ew7TBAT1an
+					GSR0nQ/RXMSUb2auip8s6cpKwIrlliH9z04Z
+					+hGM1tsrHnkxo1DNegwxm4HSk0CgY6JBfcPu
+					JR/p3l3bzSIckzW5VA== )
+			3600	NS	cmeo5xmm.nctucs.net.
+			3600	RRSIG	NS 5 3 3600 (
+					20180524171103 20180424171103 39111 cmeo5xmm.nctucs.net.
+					ou9ifqQhl7hWSqbuWTcWKqL79M66rh1phHT7
+					z/UISAHEhnuKoTRQoK1Yq0seFAOu332GA7bD
+					zFxhVP4cFz4BRBbwsu1tdwMympSe5Dq7j/1H
+					bfHKeBN+yqOLHwkfJXF2cglEDwiTk4c8otuQ
+					8xhKXY6mgivtgWvwz+mi/vzOfiw= )
+			3600	RRSIG	NS 5 3 3600 (
+					20180524171103 20180424171103 42988 cmeo5xmm.nctucs.net.
+					ZnwCWshzKXSTKhxpxcIXL7vWX07KT6WQsnRd
+					jpkJ2U5LhANqjOUgVwuCxSmLG2vIEOIq2jCT
+					Jz5mgJBUFHhZlOqe0fAP9sm7Q82gtTJ6qaX/
+					m6AZ7OeGTMGoSio3DZ39Wfnpo17mQKKhfYfU
+					7LiRmtY8wZ7fp2uj5kS+ie1GaoERQ0ODIrUZ
+					r5dc92SpJGRHSWWUukwiy03rmGhMKdhTEfwj
+					ej45zOV9HQpSyTZD5y4wMnEyJyTjSXrZNRp1
+					nxPAY5hcdOfHtijwz1vj7682NMBmznJ3k/YR
+					XVOz15En7zFaSY55uRnJV9fr8oqfjZ7gWaYk
+					QlnYq4VyeavmB646sw== )
+			3600	A	159.89.202.227
+			3600	RRSIG	A 5 3 3600 (
+					20180524171103 20180424171103 39111 cmeo5xmm.nctucs.net.
+					gxnuLAZpKo4QdbQN0S97GgIidjpZVMMUptMm
+					O+M4QylSZebdZveWwRzqsk80xSo0Z/m2Jc8A
+					j5gohwUivR804KvTECYnizDBCeMgsnQJ852f
+					o2GmuXINNUTTKjccuQdDayfnU8+b0xHT0pOS
+					Xso+u8lqhY9amw2RY9rnzXveFxU= )
+			3600	RRSIG	A 5 3 3600 (
+					20180524171103 20180424171103 42988 cmeo5xmm.nctucs.net.
+					Iezw5mMm1KozauIGdr0BEcfCC+rgesP8PKSZ
+					SQ6aKhf9v4Rod26dNw8tDSba1kpuQ9SsHFvv
+					Kwu3upoG1a0t5zCJyXndv46pm7ujT/xlXMLP
+					rfLki72bUlLF01i0sAZNmQ/8IHgdJLn0ZupD
+					skAQAV1eUzaYuvt6A+XTlR668NveO9r3VdHQ
+					6AgGb3bV31rawNihAFpfFXtxb7l7gTtw1xTc
+					XXcxRIfB0TgSd7v7Fex0uIrbqkhRP8bMImnn
+					hbp0x6XhOoVSqTBwtl8+XbxMnD/Ojlq08SWs
+					gqznStUeVOxU2XaPhxfWmdJcOFpDk+1b9mxB
+					N6IF3m38+dlN7AeTGQ== )
+			7200	NSEC	sub.cmeo5xmm.nctucs.net. A NS SOA RRSIG NSEC DNSKEY
+			7200	RRSIG	NSEC 5 3 7200 (
+					20180524171103 20180424171103 39111 cmeo5xmm.nctucs.net.
+					m09arH0/HR/5L6w0qdh6qC3+K9qnB8Mt81Jm
+					D6WsCMZVkvsNFEYbWfpcXDBgY6/naab331VQ
+					fgrNn4ymQcWeVNmNpxg8eqanEiFDX5o/M43/
+					SriaNEIeTdaq9mFsU5OrsSd9zMYimi4HFHzw
+					hbFXQMuOM40sPlXjC920jwlUL6g= )
+			7200	RRSIG	NSEC 5 3 7200 (
+					20180524171103 20180424171103 42988 cmeo5xmm.nctucs.net.
+					EgIv1M8UtdjDvHtkCQJcckQjNlT4CARLo4Ua
+					lVKmWMkFluBCc0/SKYlkNaXx0LELgShX9xR5
+					2HyCsNX97hvJKztsoN/XyS2YyiLmT25pmBDP
+					frx91BjUgA1pQVNAZF9kDso5K3oOoCTHoqNm
+					2Qj4PPyX1QdM11EN2yJ/i3k8xbBXvRi+H+ZJ
+					EMJJ3+eltfCRSXtF4vCwbEAccCElFMxaPOKx
+					D+dPVrd4mJ0EM/xPJHBAOuNtcPvDp2Z1hgm6
+					zH0UK7yWVbUYYSmMJrMifwObIO8Mvg2Pcon5
+					XnRKtrzkOJoNSUnBe/Ln0srPA45TMJAVfoAu
+					eH1OkBihQmaaINUang== )
+			3600	DNSKEY	256 3 5 (
+					AwEAAbIGiVTZ4GR1IZ2svoj23L6J2Cjb3UhV
+					qtJaM+PW/Mj+sYJ7TAuMqhNhziX2DbkPsTs8
+					7X3rbcryZ9uNRi4qnFJ1ZbvvEeDY4HiMBl75
+					DFu3E6HkLHx8aV3flbS6Uti3eclFpUA8GeO4
+					HJ8FT1hkYTi/tuZ+pE4XIUGsQ0JNpCeb
+					) ; ZSK; alg = RSASHA1; key id = 39111
+			3600	DNSKEY	257 3 5 (
+					AwEAAa5VwLw4MosNmbu54j7g6AsCmBV58yeA
+					ekU3VGlMKafgRCk+fu6lGiM8RmJyWtK0zZ7Y
+					/j21wvWcqG9SWXPEVfUSPHVCvQVHf0KEGiyz
+					uWpNNfSu8VQtHfXyQwtYfA2zd5625tvxnE5Y
+					SKBVEr0d4fqRvop4F9QyvzaCu2h0UVf0KB+W
+					SRgs++mVKHPQ9D17oEG+IP/j+JmGAX8AwCSw
+					RwGWEVuB+S2EUqWkm2v5rfilbo+bWU1k6aNO
+					XvBZLUJjqRtwZcW+oXb86imnpxge/JxWQhfN
+					BDwT2Zej5kRkfaK0+b4qQcx324hk2r1f9VWv
+					83HykixO2cRa/TCbkQgv4Ls=
+					) ; KSK; alg = RSASHA1; key id = 42988
+			3600	RRSIG	DNSKEY 5 3 3600 (
+					20180524171103 20180424171103 39111 cmeo5xmm.nctucs.net.
+					RHWAhJ43q4aiaBzd0jityZbZlBU62fNe6ZGf
+					HXLe4XNlQKwW5WZXLG8kFam72KU3jl+ev5JB
+					j/bkiM736QuCt5ziDWfmwVRyaHz+2TeN0sWt
+					RSS69D3KT73y9dS5WSwBzV2P/busFVmlkKCW
+					pFztk5Y6+6zpZ3CnhCNFIx5/vsg= )
+			3600	RRSIG	DNSKEY 5 3 3600 (
+					20180524171103 20180424171103 42988 cmeo5xmm.nctucs.net.
+					FHPUgfI1BGf2QmaJ991jwlNsuYy7CxWY+IFR
+					X8GRUfTquUGs9t9XdCVo7ftCYts3PXMwmYlr
+					8aQqTxYZ3M32YbkHrvRrs4YmTUmcMF+fs9h9
+					Huv4aESw9BotPJ92Y3hd668m0ztuI658Zb11
+					nz9C5hT0WHkBkqwqTrjiw5mGavndyuEObiGN
+					4QmdvMlSvFV6CeYU/fT3Io2EkegK3jMgNzY3
+					bLK15M5WNvihpJGtK2d/+z94OO9IDCSL3yIL
+					KVyFx53S0AYsSMLxLk81UsiYsMqCs4LO+tG+
+					4Ut4Fz2TMm58QfdlzBzz4MumqL1pg0Jfr6tH
+					bVMVy1h4PbgCnyykMw== )
+sub.cmeo5xmm.nctucs.net. 3600	IN NS	dns.sub.cmeo5xmm.nctucs.net.
+			7200	NSEC	cmeo5xmm.nctucs.net. NS RRSIG NSEC
+			7200	RRSIG	NSEC 5 4 7200 (
+					20180524171103 20180424171103 39111 cmeo5xmm.nctucs.net.
+					g7tSULnnZQF10wNZf30FgmA3HqDjD9xO7Qhk
+					yePEzc1w/IZexpNWOlr7h52heF1EdoVUxzN6
+					bYU88FiHZESux+AKrxzjHlEBUlhkc7R2LLjp
+					TJvAmlsIgT8lN9NgSrEpSTB+zoi1nhBMhrKA
+					0pqAgrLYZhl/zzc+C8zBv7vzxlA= )
+			7200	RRSIG	NSEC 5 4 7200 (
+					20180524171103 20180424171103 42988 cmeo5xmm.nctucs.net.
+					rKYervhv111Qxj93hDm2MuGzjs3ygrThJrJd
+					NkB4z80dRlNGSajq+Ph7e5k+k1N+EyLYlbiv
+					jlwuVaVCN1xmeO4KYfu2x7tDc7y0Y6D/BkDx
+					FBRR0QdJXeDHA+FuB1VZoFLp6ZIregHVIbLd
+					QVYKOeASoVZfHJbk5qUAE9bakMWBcGCm2m1K
+					JOcYJS6CFqdem9YbiniDIq7NI23JRp5oRHKY
+					1zjFecFTw5mqkak6vcK01C+U2eb52KPnno39
+					wuHG2qfA+mcW/2XAliqN83vIcHGEQpvEyVh5
+					FXxQDbCGkkxqfrHI10TgOwgIHv6/K0oczBeY
+					5o8Lmm99xgD3saEBsw== )
+dns.sub.cmeo5xmm.nctucs.net. 3600 IN A	140.113.124.2
+cmeo5xmm.nctucs.net.	3600	  IN MX 5 cmeo5xmm.nctucs.net.

@@ -1,0 +1,21 @@
+$TTL	3600
+$ORIGIN sub.pony.nctucs.net.
+@        IN SOA       dns.sub.pony.nctucs.net.	sub.pony.nctucs.net. (
+                2018042420      ; serial
+                86400           ; refresh (1d)
+                1800            ; retry (30m)
+                684800          ; expiry (1 week)
+                7200            ; minimum (2 hours)
+                )
+
+         IN NS          dns.sub.pony.nctucs.net.
+	 IN A		159.89.202.227
+	 IN SSHFP 1 1 a3aabc755b547e421a2002d8d033f5c2cd4e7e2e
+         IN SSHFP 1 2 04dd6671d8385117a65465226ba899630301895d45cf1aad51525f20a81954ff
+         IN SSHFP 2 1 e4f2870684a071bd9fa90b0f86d4b635d510479f
+         IN SSHFP 2 2 95a0baf7bd42978c33b704f4c7b89d53549870416290d6a43cc50e431120fab2
+
+dns      IN A           159.89.202.227
+ws	 IN A		140.113.235.131
+demo	 IN CNAME	ws
+

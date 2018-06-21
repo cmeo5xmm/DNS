@@ -1,0 +1,241 @@
+; File written on Tue Apr 24 18:21:32 2018
+; dnssec_signzone version 9.10.3-P4-Ubuntu
+sub.pony.nctucs.net.	3600	IN SOA	dns.sub.pony.nctucs.net. sub.pony.nctucs.net. (
+					2018042510 ; serial
+					86400      ; refresh (1 day)
+					1800       ; retry (30 minutes)
+					684800     ; expire (1 week 22 hours 13 minutes 20 seconds)
+					7200       ; minimum (2 hours)
+					)
+			3600	RRSIG	SOA 5 4 3600 (
+					20180524172132 20180424172132 2142 sub.pony.nctucs.net.
+					F3dlzFnfWNWvBso69KAdQa/98JDSZJjaUuGn
+					R4jgGS6n1+MH3aCDbtgf238NCBXQ1xk5hbx0
+					BZv/s33pxoujapOKL3zdlfMG+cHpXpmYMNTr
+					dtIKaRXdG4GEwj/gD62kiFV+m7Bo6uRcWMVQ
+					v/fmNevAFZOpKvUuUgKkQhmnbV8= )
+			3600	RRSIG	SOA 5 4 3600 (
+					20180524172132 20180424172132 44941 sub.pony.nctucs.net.
+					Bgs/wOherdr7oJa4S9sSkR7yJjujJzfiK33C
+					agWglx8g+wl/MFLnvlm6GNpLOMqfoe1oKPUH
+					0nJyWJfCip2TxRqmVyqnrct9wPE4i0wpGq2r
+					g5G1Z7zITMll4pwDh1LbDJddPZwitwPj/l/m
+					88Ulrmn2QcaARzml3DCTTBjEBa8lcrRrhGe5
+					y8y+1Jeff+jvZ20P16Nhcxt3U/WeSCIOp1VM
+					AeVC/uqplIpeCjfR0f6H7qnkM5daPbANKfHU
+					k51NhJqV4CcPbdJZQ4qaxfDZdgYPIaytYRNw
+					1MlVxsnawN/Cqq0MWDVh6oUKap7CAaymhwvB
+					5I/QTymDYVhn30DgKA== )
+			3600	NS	dns.sub.pony.nctucs.net.
+			3600	RRSIG	NS 5 4 3600 (
+					20180524172132 20180424172132 2142 sub.pony.nctucs.net.
+					AYgJ3xBHm0rYQ8R612j0gp/f5kBHiOpeqxIS
+					+AhP6W7oxggay1OVg6cqMHGqxGPw9SH62NPB
+					kCCtTIBKod0EG10QPNcy8qHqX7ANRak00ppZ
+					anECeduzIciAw0ITOVSBKYjP+U+ScjNsaD76
+					p08Q7otb1WZB9clWahU4I6Vg8Q4= )
+			3600	RRSIG	NS 5 4 3600 (
+					20180524172132 20180424172132 44941 sub.pony.nctucs.net.
+					a6u4w+b+JxFSE8EXD/blHIwyzhWB5UTX8aZi
+					X6w5PibbdOZhlSpoeQyd3okqTUMjj0GGfEVd
+					TBBSBDMvh+IKoQTqR74kZkdp28VMahW0rHm1
+					L3yHMr+APcAsWAD+BQ+h57RpbYxVybyA/mEw
+					Q51Mt/tB8pVRb8qC3RSVtpnHeE8M4yTkS/kx
+					+WPqaRxlgQYn2OjFmmXwYhzqYz9AEVSkqo4x
+					WOtpyY34ZFRxj8lCynyywAUd5+UeZa+6ulrf
+					jE9H9oXXRwFgLhk4r2EbFVz6mQiqy2/mECXi
+					ilpKd/J2qd2lAsmYjL8bj00d7jZZOpTHcc1Y
+					hNMxdWfKCVhNlffWRQ== )
+			3600	A	159.89.202.227
+			3600	RRSIG	A 5 4 3600 (
+					20180524172132 20180424172132 2142 sub.pony.nctucs.net.
+					O3eTOv1GvAB8gsY0ZYDEvkT1z6ZWTEyMbXNu
+					RmBCgEh1TPtFvt7UR75l4MznP1wc7PRXbfcQ
+					EzlZBhYfU/+qVLhSlkRrbNsP0yBbsng3/nCK
+					dJ70yFub8SScOaWOo0V2bRPz21QQKqpiqC+v
+					SplkR9zo6w7o9Z1utSDmMsz4Ci0= )
+			3600	RRSIG	A 5 4 3600 (
+					20180524172132 20180424172132 44941 sub.pony.nctucs.net.
+					Wn1Ix7muLeBQq/lw6fQxHwretLyqr9tGpnUd
+					08QsbB3OMp6obpn3Bnb5p0XkhRWZrsfz6ujb
+					SfxLpf9wNOKaZ21bi74tEpAHHY32YhVNKqB2
+					E33oooufVWY9dhKTWYmWHCr10y6p/O81TgoK
+					Fd1FQLlXugIw7rNFki0Mv9laxAmGJNnGVZRB
+					Du2d5fS0Pnqdru8xshac6GQO6s4gQuslqH6W
+					8UmFpEnD6V9gjD3Yk0i4yOkZwE3XkmOCYw8y
+					oS6wJxDrtH/fFrPcGL8skVX7KABtqQC9hpou
+					/v84gLe2Tq2ThfspJk80h7xK+7gh0oALfLl2
+					opd3DrG8kRn3yLMXGA== )
+			3600	SSHFP	1 1 (
+					A3AABC755B547E421A2002D8D033F5C2CD4E
+					7E2E )
+			3600	SSHFP	1 2 (
+					04DD6671D8385117A65465226BA899630301
+					895D45CF1AAD51525F20A81954FF )
+			3600	SSHFP	2 1 (
+					E4F2870684A071BD9FA90B0F86D4B635D510
+					479F )
+			3600	SSHFP	2 2 (
+					95A0BAF7BD42978C33B704F4C7B89D535498
+					70416290D6A43CC50E431120FAB2 )
+			3600	RRSIG	SSHFP 5 4 3600 (
+					20180524172132 20180424172132 2142 sub.pony.nctucs.net.
+					wG2IreiK4WT8r+dGjdECn2b6PLB6bJvnqD2H
+					Frwh5Bs65ox+p2Xon0Wod2RZRwev/KO4MyNs
+					8219WIe6uPYI416Nej0EpWwb0QL0lIp8/rHc
+					vVBIzs9HC1FmTSY2qMvtYVuGutJbgyUaIjew
+					YESlAIipkKCUzTtaU+UHdMLuteg= )
+			3600	RRSIG	SSHFP 5 4 3600 (
+					20180524172132 20180424172132 44941 sub.pony.nctucs.net.
+					QxaihhD23EgWoNo9r5pHzKTbVD2ys6CvK8Xg
+					UfMTFHMeT/AyKPhLCJ4y7u+z4bBgs+E5KbGM
+					vPmn9a1xuiYS+Wz6xIQMV4/S1rZBgZjZfHYP
+					ora233CzVTBzvxCttvoE25hqStDv1oYe9/M2
+					LYUgHMHJSEUESH+BzdDmZkBC0FhYsDncfbSr
+					en6xFZvQYKhVcr09ksGeIalPHv+bSVfEMWtv
+					C47TykPpSOk5Xfz5Wc8wZ73/czJFMKYARqOV
+					FVi6G0RLre89/8XQSiZxpCT+MbRcNSPFzV8K
+					KNxSkj9wBXaPoc0eQFG+E2nHmvN+iaRfr2pt
+					2tUfZ7KehIAITU1m3A== )
+			7200	NSEC	demo.sub.pony.nctucs.net. A NS SOA SSHFP RRSIG NSEC DNSKEY
+			7200	RRSIG	NSEC 5 4 7200 (
+					20180524172132 20180424172132 2142 sub.pony.nctucs.net.
+					HBpZIaKH5h1vZzRTvVFR5wxhoEmUVJ6CTyUw
+					dlF6Bb/CqDEZmgaKT4G9al4dhc66SBtbZpJX
+					PoCH18BdvwG/qFhVWpL/G1hxAHwEOBFcjhj7
+					Vbqet2seoigY/iwee1Qi+aXK6EoEaQJ7JvKm
+					zFkJlBpK/swsB6//GHKSxoVIbYk= )
+			7200	RRSIG	NSEC 5 4 7200 (
+					20180524172132 20180424172132 44941 sub.pony.nctucs.net.
+					ZjpFVmep6aW6O+PJFHh7xk5/vRyVabyQGW/d
+					OPFI44kur0faijbYXTVa9LlZVVEpcsZG7W+8
+					zQER8hgjp5EhKXZLGsVm257PQXnZ+Jl9jYGO
+					VFFDtdzYn5OLFkk9cZGKKnYQqcMUsjaTnQdG
+					TUizz7mPGabS1aJEzF8WdmaV34wBA8dQuq4D
+					/fSatjHvAP4ifC8a3eFjYRebNL8EJCNKgdPR
+					5vBloLwDafeERYh08MRO/DrR4QAewUry1kCA
+					d/nh17chL+aRfgGLKKV9CGvvxrETorMTpDnm
+					LuA5TReE9w7SZMo6uoj+3N3c6ynIX4B71Pst
+					kQRk/mUgU7h64+NgEg== )
+			3600	DNSKEY	256 3 5 (
+					AwEAAcTP+bXwPfnqK0mMnOl1EsaD37uqWyiM
+					7Hn7jbjEHy9Bzwgma+DHlFXp20CeAsNt9n35
+					AnOgb3APh9VNVR0lsTia+sFCA7eiQNP4uRC7
+					r4C3EbHLRZyFFeEFHo0s0F0OM0dCrK4UfE9i
+					nXERgzkImQ9lQgtb4PbafCD9F96Uuqk3
+					) ; ZSK; alg = RSASHA1; key id = 2142
+			3600	DNSKEY	257 3 5 (
+					AwEAAcL/GwtC98ZjQYdDUO2W6RN4yMnHCDp2
+					B7wx3OBvqCW8f4KCnujji2upP9c3DXqzkyFk
+					MepUhrrmuuNBFpTx0e7fGCGHyDXvaebnFs1S
+					Su8I/XE2ZNZSmiOmwzmr2E5Eo8/OTQyFKciN
+					+TVuiW0lXNZzZgWem3x5c45DYO79JD8vmSVy
+					IdRPO0kFF7mPPHB/KVJLjSPeHB8fZN8FYJyb
+					jRq/vW5uWs8CqQzza+QjgdkPKGUatzRpAKM2
+					9Gk4QlUbVmZx4tw90n1VHK6HvYYkOJqxymtF
+					gtk7AF5CHttMJ+cHdpF13acV6wrMOy3Ay5Hh
+					2qpgJoXuTdmPYRhF0eDcU+M=
+					) ; KSK; alg = RSASHA1; key id = 44941
+			3600	RRSIG	DNSKEY 5 4 3600 (
+					20180524172132 20180424172132 2142 sub.pony.nctucs.net.
+					Mi8Xom1aw2F9oebzdEmTZAE4Dh/5jOZrkjYY
+					H2Ct2OmAgLi3haT9EqOEOu/+j0fh99qNxvRh
+					3A1xveST3bWmOS78jAfzyBRFMmhXx1KGeM+g
+					Xr7fE1aMcWokgmmpVOe7EXQ/LaIDBzpgjBLL
+					5/ORStoa9NckQgoOLIpduQAT8sI= )
+			3600	RRSIG	DNSKEY 5 4 3600 (
+					20180524172132 20180424172132 44941 sub.pony.nctucs.net.
+					Z2agLUZy+HkzJJ3RpQh/s00czd7r1mLrcONQ
+					wfRPcLNlv4aVPPUnsgsG5A2o93zzbMkxtkF8
+					sOEx+uh+XyqMwSu/6AcRVPL2qzx79MV4l15b
+					G12uVN+vg9gKfCEaKPWUn++HSrkghrvux/sa
+					gUyjbFF9v05VtxynZIkxMRp82Pvv3lQ0ViMH
+					pVCngxkuU9nrUUowzhBNlIlnPUSknKrEVvSE
+					L3EDav7jBsYZx0Ia3enAV1NvUucbgB2qcUVt
+					qU7yI/cLherI8qo1COMv6gJjVaQmBZmGCLfc
+					gYCQzlHPgxEjYd59HNDf5g3L5/sGGodbkh34
+					ZVyPpSPeG/o35e3zLw== )
+
+demo.sub.pony.nctucs.net. 3600	IN CNAME ws.sub.pony.nctucs.net.
+			3600	RRSIG	CNAME 5 5 3600 (
+					20180524172132 20180424172132 2142 sub.pony.nctucs.net.
+					o1+serCMGCr/8DXU4lB3p8pJr9+WN4X8gWeR
+					hDhWRoySdz/6/LMPg42HXw1FQa8tle0bL55d
+					4sOS+mh4oLS7y3++TbT32AdPR5hTVK+9fnU5
+					XdreCSGYoNp3gvHr0wEQUoLUIYjUTV07NUnO
+					UDymuFNupCA8H9revzmUoEt6KoE= )
+			3600	RRSIG	CNAME 5 5 3600 (
+					20180524172132 20180424172132 44941 sub.pony.nctucs.net.
+					kUwaQd+wT0HiugADIeJo+LX928eLlmgy0NFx
+					laPKCFJfsdLEuUoGoCQTg8taMfyl79yDBmSo
+					p6reERHfmwT50vyR43cLU79jzx/tzo68dvse
+					KWdeXflHnboj+nCa3K2kY+SSos4ZXQk6fJZ7
+					rySM/RRDfEG9bLmipepPXeMa65NjNg3vMj9y
+					DWiMZ3RxgUbtV7OUUtLVXNJnRcJtxL2Dys1v
+					g0zyT+sfxzCjuju9Sd3GfmukJf0OoVW7bLC3
+					sixaFworR1Wp+ZqAmRqBhI4nZI5VLs5+PGhP
+					1+94UAtQib2E3QQP16lO2Uz3kwYRlDJSBF1F
+					e6O8cNr0WPfyrCb3wQ== )
+			7200	NSEC	dns.sub.pony.nctucs.net. CNAME RRSIG NSEC
+			7200	RRSIG	NSEC 5 5 7200 (
+					20180524172132 20180424172132 2142 sub.pony.nctucs.net.
+					D+zZahfIBFUPJ0BDD/SiSNnqt4kenAf/I/Rc
+					WSfnS4IPT9t8wu6epj95lDfjBCapVvPteUq0
+					dTNWfZL1bIO1fBWeRVHUfgLQ/kU597bl9laC
+					CZ2IkzjKRIUvY9P61nZI7VivmDmjBE9+O6RW
+					C89VNXt5qke7xm1LB97A7hUGZqs= )
+			7200	RRSIG	NSEC 5 5 7200 (
+					20180524172132 20180424172132 44941 sub.pony.nctucs.net.
+					eaWSQcEUrlT0Lq+qJAuaCPwuZfWsCL8tNode
+					tqylHKlhHobrShqESi1hUQbhzYMXqswTI7Qb
+					QzJ9FlOqhWL2UOGD7x9UDKMIHlFa/sB3YcxS
+					VVlyd5GYoKohgEhWicWHkj5qHEjS/WdFm1Q5
+					CGN95bIBwu5S+xAsq4PwJ31PB0XOp27wrkjL
+					k+weq4kJxqO58MVVbgPt0Pn2ZpVjvCvoc6nw
+					TO1sPx45Lxq2TIUGYaHDxohGiroigqD2NCjv
+					mXOEBT3dKVBhbTrhUGjKrxl5fTeIXHFXmlXA
+					tx/VG4k3r65LdyNT0J0ppNYvY961KSpDWMqe
+					6Bk+cvl5gRkQGe3X8A== )
+dns.sub.pony.nctucs.net. 3600	IN A	159.89.202.227
+			3600	RRSIG	A 5 5 3600 (
+					20180524172132 20180424172132 2142 sub.pony.nctucs.net.
+					W71PVM/GL/RAf2AMCam12Q7tIRsnAc1tFh33
+					rd3CM16FKTcfrWY8Z3TAUudvHR4/OVyGv2gQ
+					bXfjbPL1szYnFCpI6ksWTBeYujEYAhXM8M8F
+					FNHZT1PDUIqDcVEfnuN8RUb874THNL4iG/zr
+					yA44p7SkWHYbpn0EtxBgNIJR7pk= )
+			3600	RRSIG	A 5 5 3600 (
+					20180524172132 20180424172132 44941 sub.pony.nctucs.net.
+					bmo9dLlfkjHT46FSjBl6T02rJ4HKpEKES1MR
+					fFTGYzNYZ9L1sCICmTFPErI83+pSZylCfybl
+					ICbwKvcM2WezRxtFE5hN7wbyF3E0fQQwbAkT
+					Ghekaunq+CWE00Mx11IFNp5CApudXiVHboxs
+					ta55A8tocyK9W+9SW9+fKEijEEXhN2H7bsok
+					aXrMIxarzOmIAZ47FfzZC9Z+R/KH5G7tlLcL
+					VRaElPGQ42vM3LG2rBNCLFqnq5r4+BcEKKW6
+					l03HNsNIgbE1mbu2SiIkaM1ya24QnwjBLVXW
+					jREsc/NOE5ZMEePeC2OtlbukuUazgPPiXh5v
+					fkez8TZiSXzshT1ECg== )
+			7200	NSEC	sub.pony.nctucs.net. A RRSIG NSEC
+			7200	RRSIG	NSEC 5 5 7200 (
+					20180524172132 20180424172132 2142 sub.pony.nctucs.net.
+					UwMvIoKPFQXrv/hyLMzFJqleI/Z17Lx9+KQV
+					EZKlAugqKoFM09KkQDV3nFuxKKEIccE6jcuH
+					9Gkks2ntcut6iuHXGpik7BBL6E8JOWUhAfZ8
+					P0iusn+bxGlFSlbJqM/kA00MwjBbEoIY8E6M
+					uaztrk6tfJj+UAe98sGS3joDwNM= )
+			7200	RRSIG	NSEC 5 5 7200 (
+					20180524172132 20180424172132 44941 sub.pony.nctucs.net.
+					FmtqRXET8hY4tlXfxhysK6PaHzODz5R3SQRb
+					DeANo1q5JsD2HL+ZbdPeoI7V0ArNbGS6ixsv
+					grY/EqNuwWQogpmMhG9w+Ux+mvGJcVwHBFOM
+					4Wqd8rlN2y04SfXQMCft435AWipAVpSG7X7m
+					YmRyMnOvCTZlrRMQwQ4pRilMBQkNonOdznQW
+					x3oTds76AcvckZtACf3bNqtQNazgfzCsQPpz
+					yin5SJCYdNhPkLUpzEPVqe/MK3pNyIPHXxec
+					UeV+yvGfScHcfsIU0PvQh5HWVDd3fgs+ND8b
+					24mLtHYtzryZIhpSpKuorVJnBUwfatsxcqiM
+					blzgbQfyu8mAaxnK5w== )
+
+
+bsd3.sub.pony.nctucs.net. 3600	IN A	140.113.235.133

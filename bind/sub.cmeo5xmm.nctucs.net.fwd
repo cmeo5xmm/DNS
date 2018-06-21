@@ -1,0 +1,17 @@
+$ORIGIN .
+$TTL 3600	; 1 hour
+sub.cmeo5xmm.nctucs.net	IN SOA	dns.sub.cmeo5xmm.nctucs.net. sub.cmeo5xmm.nctucs.net. (
+				2018042501 ; serial
+				86400      ; refresh (1 day)
+				1800       ; retry (30 minutes)
+				604800     ; expire (1 week)
+				7200       ; minimum (2 hours)
+				)
+			NS	dns.sub.cmeo5xmm.nctucs.net.
+			A	140.113.124.2
+			SSHFP	1 1 (
+				05311C247B1FD12B5B0D9E940D5C0E88290BAA93 )
+$ORIGIN sub.cmeo5xmm.nctucs.net.
+demo			CNAME	ws
+dns			A	140.113.124.2
+linux			A	140.113.235.153

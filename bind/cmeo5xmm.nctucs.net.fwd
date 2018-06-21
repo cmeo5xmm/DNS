@@ -1,0 +1,24 @@
+$TTL    3600
+$ORIGIN cmeo5xmm.nctucs.net.
+@	 IN SOA       @ @ (
+		2018042431	; serial
+		86400		; refresh (1d)
+		1800		; retry (30m)
+		684800		; expiry (1 week)
+		7200		; minimum (2 hours)
+		)
+
+
+	 IN NS		@
+	 IN A		159.89.202.227
+	 IN MX	5	cmeo5xmm.nctucs.net.
+         IN TXT		"v=spf1 ip4:159.89.202.227 a mx mx:cmeo5xmm.nctucs.net -all"
+	 ;IN SPF		"v=spf1 ip4:159.89.202.227 mx:cmeo5xmm.nctucs.net -all"
+mail._domainkey IN      TXT     ( "v=DKIM1; k=rsa; t=y; "
+          "p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDer17Rm/cI6mx3+E4f659hdikwjjDed4Mljcy83f2Omj7F1OYcmdu1KYwI3Ji1i7mkIasre6FQxLKcQ9vLv5bnmmurH0ZCgjEAnQkxLT085loMekJENHx+oyqPkNdROR5i9Quwgg9iXPoM9VWhZA2kjqGAFJNe3ogon3r3wBNjKwIDAQAB" )  ; ----- DKIM key mail for cmeo5xmm.nctucs.net
+
+_dmarc   IN TXT		"v=DMARC1; p=none; rua=mailto:postmaster@cmeo5xmm.nctucs.net"
+sub	 IN NS		dns.sub.cmeo5xmm.nctucs.net.
+dns.sub	 IN A		140.113.124.2
+
+
